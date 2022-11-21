@@ -1,0 +1,30 @@
+<div class="form-group">
+  <label for="name">Name</label>
+  <input type="text" class="form-control" id="name" [(ngModel)]="name" />
+
+  <label for="roll">Roll Number</label>
+  <input type="number" class="form-control" id="roll" [(ngModel)]="roll" />
+
+  <label for="year">Year</label>
+  <input type="number" class="form-control" id="year" [(ngModel)]="Year" />
+
+  <label for="dept">Department</label>
+  <input type="text" class="form-control" id="dept" [(ngModel)]="dept" />
+
+  <label for="section">Section</label>
+  <input type="text" class="form-control" id="section" [(ngModel)]="sec" />
+
+  <label for="exampleFormControlInput1">Email address</label>
+  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="email">
+
+  <input type = "submit" value = "submit" class="btn btn-primary button">
+</div>
+
+<div class="display">
+  <h1>{{name}}</h1>
+  <h1>{{roll}}</h1>
+  <h1>{{Year}}</h1>
+  <h1>{{dept}}</h1>
+  <h1>{{sec}}</h1>
+  <h1>{{email}}</h1>
+</div>
